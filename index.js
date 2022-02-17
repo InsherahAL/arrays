@@ -62,7 +62,31 @@
 // console.log(arr1);
 // console.log(newArr);
 
-const user = { firstName : 'Insherah' , lastName : 'abu-libdeh' , age : 16 }
-user.mobileNO = '7456023754'
-const newUser = user
+// const user = {
+//      firstName : 'Insherah' ,
+//       lastName : 'abu-libdeh' , 
+//       age : 16 ,
+//     isLoggedIn:false ,
+//  signIn : function () {
+//      this.isLoggedIn =true
+//  },
+// }
+// user.mobileNO = '7456023754'
+// const newUser = user
+// console.log(user);
+// user.signIn()
+// console.log(user);
+
+
+const user = {
+    firstName : 'Insherah' ,
+     lastName : 'abu-libdeh' , 
+     age : 16 ,
+   isLoggedIn:true,
+signOut : function () {
+    this.isLoggedIn = false
+},
+}
+console.log(user);
+user.signOut()
 console.log(user);
