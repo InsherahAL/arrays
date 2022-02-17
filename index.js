@@ -45,3 +45,24 @@
 // capitalize(arr1)
 // console.log(arr1);
 
+
+// let arr = 'asd,asd,asd,asd'
+// let arr = str.split(' ')
+// console.log(
+//     arr[0].split
+// );
+// const arr1 = ['insherah','lily','haneen','clara']
+// console.log(arr1);
+// arr1.push('muna')
+// arr1.push('lea')
+// console.log(arr1);
+// arr1.splice(3,1,'suad','sameera')
+// console.log(arr1);
+// const newArr = arr1.slice(4,arr1.length)
+// console.log(arr1);
+// console.log(newArr);
+
+const user = { firstName : 'Insherah' , lastName : 'abu-libdeh' , age : 16 }
+user.mobileNO = '7456023754'
+const newUser = user
+console.log(user);
